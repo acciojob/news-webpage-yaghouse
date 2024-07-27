@@ -1,22 +1,58 @@
-/*  your css code here. If applicable */
-.header {
-	background-color: #011e29;
-	color:#f5f5f5;
-	padding:1%;
-	text-align:center;
-}
-.latest-news-section {
-	background-color:#f5f5f5;
-	padding:1%;
-	width:100%;
-	text-align:center;
+body{
+
+background-color: #f5f5f5;
+
 }
 
-.pictorial-news-section {
-	background-color:#f5f5f5;
-	padding:2%;
-	text-align:center;
-	width:100%;
-	border-radius:10px;
-	
+header{
+
+text-align: center;
+
+background-color: #011e29;
+
+color: white;
+}
+
+.pictorial-news-section{
+
+text-align:center;
+
+background-color: white;
+
+padding: 10px; 
+
+width: 300px;
+
+height: 900px;
+
+border-radius: 10%;
+
+overflow: hidden;
+}
+
+.latest-news-section{
+
+background-color: white;
+
+padding: 10px;
+
+width: 33%;
+
+height: 120px;
+}
+
+.main{
+
+background-color: white;
+
+padding: 10px;
+
+width: 33%;
+
+height: 250px;
+}
+
+.flex{
+
+display: flex;
 }
